@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script
+  	src="https://code.jquery.com/jquery-3.0.0.js"
+  	integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+	<section>
+		<div class="container backquestion">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="assets/images/ring.png" width="7%">
+					
+				</div>
+				<div class="col-lg-6">
+					<div style="text-align:right;">
+						<span class="realanimalques"><span style="color:Orange;">T</span><span style="color:Violet;">i</span><span style="color:DodgerBlue;">c</span><span style="color:MediumSeaGreen;">k</span></span>
+						<img class="pencil" src="assets/images/pencil.jpg" width="15%">
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-6">
+					<img class="sad" src="assets/images/sad.png" width="20%">
+					<span class="realanimal"><span style="color:DodgerBlue;padding-right: 10px;">Real</span><span style="color:Orange;padding-right: 10px;">animals</span><span style="color:DodgerBlue;">...</span></span>
+					<img class="speaker" src="assets/images/speaker.png" width="5%" onclick="playAudio()">
+				</div>
+				<div class="col-lg-5">
+				</div>
+			</div>
+			<p></p>
+			<div class="row gap">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/cock1.png" width="130px" height="130px">
+							<p></p>
+							<input type="checkbox" name="cock1">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/cock2.png" width="130px" height="130px">
+							<p></p>
+							<input class="number" type="checkbox" name="cock2">
+						</div>
+					</div>
+					<hr/>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/crab1.png" width="130px" height="130px">
+							<p></p>
+							<input class="number" type="checkbox" name="crab1">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/crab2.png" width="130px" height="130px">
+							<p></p>
+							<input type="checkbox" name="crab2">
+						</div>
+					</div>
+					<hr/>
+				</div>
+			</div>
+			<div class="row gap">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/snail1.png" width="130px" height="130px">
+							<p></p>
+							<input class="number" type="checkbox" name="snail1">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/snail2.png" width="130px" height="130px">
+							<p></p>
+							<input type="checkbox" name="snail2">
+						</div>
+					</div>
+					<hr/>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/shark1.png" width="130px" height="130px">
+							<p></p>
+							<input class="number" type="checkbox" name="shark1">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center">
+							<img class="objects" src="assets/images/shark2.png" width="130px" height="130px">
+							<p></p>
+							<input type="checkbox" name="shark2">
+						</div>
+					</div>
+					<hr/>
+				</div>
+			</div>
+			<div style="text-align: right;">
+				<button class="btn btn-primary" style="border-radius: 50%;" data-toggle="modal" data-target="#exampleModal" id ="btn" disabled onclick="playAudiogood()"><i class='fas fa-hand-pointer' style='font-size:30px;color:orange;vertical-align: middle;cursor: pointer;'></i></button>
+				
+				<button class="btn btn-primary butt" style="border-radius: 50%;"><i class="material-icons" style="font-size:30px;color:orange;vertical-align: middle;cursor: pointer;">refresh</i></button>
+			</div>
+				
+			<div style="text-align: center;">
+				<a href="index.html"><i class='fas fa-arrow-circle-left' style='font-size:48px;color:DodgerBlue'></i></a>
+				<a href="#"><i class='fas fa-arrow-circle-right' style='font-size:48px;color:DodgerBlue'></i></a>
+			</div>
+			
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        		<img src="assets/images/boy.png" width="50%">
+        	</div>
+        	<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+        		<div style="margin-top: 20%;">
+        			<span class="goodjob"><span style="color:Orange; padding-right: 10px;">Good</span><span style="color:Violet;">job</span></span>
+        		</div>
+        		
+        	</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<audio id="myAudio">
+  <source src="assets/audio/realanimals.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="myAudiogood">
+  <source src="assets/audio/goodjob.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+var x = document.getElementById("myAudio"); 
+function playAudio() { 
+  x.play(); 
+} 
+var y = document.getElementById("myAudiogood"); 
+function playAudiogood() { 
+  y.play(); 
+} 
+
+function uncheckAll() {
+  $("input[type='checkbox']:checked").prop("checked", false)
+  $('#btn').prop('disabled', true);
+}
+$('.butt').on('click', uncheckAll)
+
+
+$( ".number" ).on( "click", function() {
+  if($( ".number:checked" ).length == 4)
+  {
+  	$('#btn').prop('disabled', false);
+  }
+  else
+  {
+  	$('#btn').prop('disabled', true);
+  }  
+});
+
+
+	$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+});
+
+</script>
+		</div>
+	</section>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/myscript.js"></script>
+
+</html>

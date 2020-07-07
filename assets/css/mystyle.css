@@ -1,0 +1,121 @@
+.read{
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+	vertical-align: middle;
+	
+}
+.realanimal{
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	vertical-align: middle;
+	border: 2px solid Orange;
+	border-radius: 5px;
+	padding: 2px 10px;
+	background-color: white;
+}
+.realanimalmobile{
+	font-family: 'Fredoka One', cursive;
+	font-size: 15px;
+	vertical-align: middle;
+	border: 2px solid Orange;
+	border-radius: 5px;
+	padding: 2px 10px;
+	background-color: white;
+}
+.sad{
+	margin-left: 5px;
+	border: 2px solid DodgerBlue;
+	border-radius: 50%;
+}
+.kangaroo{
+	background-color: white;
+	margin-top: 30px;
+	padding: 5px;
+	border: 1px solid black;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+    transform: rotate(-5deg);
+}
+.whale{
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 100px;
+	padding: 5px;
+	border: 1px solid black;
+	-ms-transform: rotate(5deg); /* IE 9 */
+    transform: rotate(5deg);
+}
+.whalemobile{
+	background-color: white;
+	padding: 5px;
+	border: 1px solid black;
+}
+.back{
+	background-image: url('https://www.wallpapers4u.org/wp-content/uploads/mandarin_duck_pond_color_feathers_bird_52501_1920x1080.jpg');
+	background-position: center;
+	background-size: cover;
+	border-top:20px solid orange;
+	border-bottom:20px solid orange;
+	border-left:20px solid DodgerBlue;
+	border-right:20px solid DodgerBlue;
+}
+.pencil{
+	border-radius: 50%;
+	margin-top:10px;
+	margin-left: 5px;
+}
+.realanimalques{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.backquestion{
+	background-position: center;
+	background-size: cover;
+	border-top:20px solid orange;
+	border-bottom:20px solid orange;
+	border-left:20px solid DodgerBlue;
+	border-right:20px solid DodgerBlue;
+}
+.backquestionmobile{
+	background-position: center;
+	background-color: #d4e2ff;
+	background-size: cover;
+	border-top:20px solid orange;
+	border-bottom:20px solid orange;
+	border-left:20px solid DodgerBlue;
+	border-right:20px solid DodgerBlue;
+}
+.gap{
+	margin-top: 20px;
+}
+.center{
+	text-align: center;
+}
+/*css if pop up*/
+.goodjob{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	vertical-align: middle;
+	border-radius: 50%;
+	border: 5px solid MediumSeaGreen;
+	padding: 10px;
+}
+.speaker{
+	cursor: pointer;
+}
+.objects{
+	background-color: #bceaf5;
+	padding: 5px;
+	border-radius: 20%;
+}
+.mobile{
+	display: none;
+}
+@media only screen and (max-width: 600px) {
+  .computer {
+    display: none;
+  }
+  .mobile{
+  	display: block;
+  }
+}
